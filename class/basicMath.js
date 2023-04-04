@@ -156,6 +156,104 @@ class BasicMath
         }
         return {a: a, b: b, result: sum};
     }
+    logarithm(a)
+    {
+        if(a == 0)
+        {
+            return {a: a, result: "Cannot divide by zero"};
+        }
+        if(a == 1)
+        {
+            return {a: a, result: "Cannot divide by zero"};
+        }
+        if(a == -1)
+        {
+            return {a: a, result: "Cannot divide by zero"};
+        }
+        return {a: a, result: Math.log(a)};
+    }
+    factorial(a)
+    {
+        if(a == 0)
+        {
+            return {a: a, result: 1};
+        }
+        let sum = 1;
+        for (var i = 1; i <= a; i++)
+        {
+            sum *= i;
+        }
+        return {a: a, result: sum};
+    }
+    mathRoot(base, root = 2)
+    {
+        if(base == 0)
+        {
+            return {base: base, root: root, result: 0};
+        }
+        if(root < 0)
+        {
+            return {base: base, root: root, result: "Cannot divide by zero"};
+        }
+        if(root == 0)
+        {
+            return {base: base, root: root, result: "Cannot divide by zero"};
+        }
+        if(base < 0)
+        {
+            return {base: base, root: root, result: "Cannot divide by zero"};
+        }
+        return {base: base, root: root, result: Math.pow(base, 1/root)};
+    }
+    sinDegrees(a)
+    {
+        if(a == 0)
+        {
+            return {a: a, result: 0};
+        }
+        return {a: a, result: Math.sin(a * Math.PI / 180)};
+    }
+    cosDegrees(a)
+    {
+        if(a == 0)
+        {
+            return {a: a, result: 1};
+        }
+        return {a: a, result: Math.cos(a * Math.PI / 180)};
+    }
+    tanDegrees(a)
+    {
+        if(a == 0)
+        {
+            return {a: a, result: 0};
+        }
+        return {a: a, result: Math.tan(a * Math.PI / 180)};
+    }
+    sinRadians(a)
+    {
+        if(a == 0)
+        {
+            return {a: a, result: 0};
+        }
+        return {a: a, result: Math.sin(a)};
+    }
+    cosRadians(a)
+    {
+        if(a == 0)
+        {
+            return {a: a, result: 1};
+        }
+        return {a: a, result: Math.cos(a)};
+    }
+    tanRadians(a)
+    {
+        if(a == 0)
+        {
+            return {a: a, result: 0};
+        }
+        return {a: a, result: Math.tan(a)};
+    }
+
     
 }
 
