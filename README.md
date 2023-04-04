@@ -12,5 +12,7 @@ AllMath() - contain all classes below
 
 BasicMath() - addition, subtraction, multiplication, division, modulo, power, absolute, squareRoot, logarithm, factorial, mathRoot, sinDegrees, cosDegrees, tanDegreese, sinRadians, cosRadians, tanRadians, round
 
+FiguresMath() - in progress
+
 FunctionsMath() - not set yet
 ```
