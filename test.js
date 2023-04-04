@@ -1,5 +1,6 @@
 let math_c = require('./index.js');
-let math_basicMath = new math_c.basicMath();
+let math_basicMath = new math_c.BasicMath();
+let math_functionsMath = new math_c.FunctionsMath();
 
 console.log(math_basicMath.addition(1, 2));
 console.log(math_basicMath.addition(1, 2).result);

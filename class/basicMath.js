@@ -93,7 +93,6 @@ class BasicMath
         }
         if(b < 0)
         {
-            // Example: 5^3 = 1 ÷ 5 ÷ 5 ÷ 5 = 0,008
             let sum = 1;
             for (var i = 0; i < b; i++)
             {
@@ -273,7 +272,7 @@ class BasicMath
             a = a / Math.pow(10, precision);
             return {a: a, precision: precision, result: a};
         }
-        
+
     }
     
 }

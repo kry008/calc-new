@@ -1,6 +1,6 @@
-class functionsMath
+class FunctionsMath
 {
     
 }
 
-module.exports = functionsMath;
+module.exports = FunctionsMath;
