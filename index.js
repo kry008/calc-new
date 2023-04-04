@@ -1,6 +1,6 @@
-let basicMath = require('./class/basicMath.js');
+let BasicMath = require('./class/basicMath.js');
 let functionsMath = require('./class/functionsMath.js');
-class allMath {
+class AllMath {
     constructor() {
         this.basicMath = new basicMath();
         this.functionsMath = new functionsMath();
@@ -9,7 +9,7 @@ class allMath {
 }
 
 module.exports = {
-    basicMath: basicMath,
+    BasicMath: BasicMath,
     functionsMath: functionsMath,
-    allMath: allMath
+    AllMath: AllMath
 }

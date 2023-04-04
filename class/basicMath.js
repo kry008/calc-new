@@ -81,7 +81,7 @@ class BasicMath
         }
         return {a: a, result: sum};
     }
-    moduo(a, b)
+    modulo(a, b)
     {
         return {a: a, b: b, result: a % b};
     }
@@ -253,7 +253,28 @@ class BasicMath
         }
         return {a: a, result: Math.tan(a)};
     }
-
+    round(a, precision = 0)
+    {
+        if(precision == 0)
+        {
+            return {a: a, precision: precision, result: Math.round(a)};
+        }
+        if(precision < 0)
+        {
+            a = a * Math.pow(10, precision);
+            a = Math.round(a);
+            a = a / Math.pow(10, precision);
+            return {a: a, precision: precision, result: a};
+        }
+        if(precision > 0)
+        {
+            a = a * Math.pow(10, precision);
+            a = Math.round(a);
+            a = a / Math.pow(10, precision);
+            return {a: a, precision: precision, result: a};
+        }
+        
+    }
     
 }
 

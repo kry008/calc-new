@@ -1,6 +1,6 @@
 {
   "name": "calc-new",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "A small library with many math operations",
   "main": "index.js",
   "scripts": {

@@ -32,3 +32,4 @@ console.log(math_basicMath.division(1, 0, 3).result);
 console.log(math_basicMath.division([1, 2, 0]));
 console.log(math_basicMath.division([1, 2, 0]).result);
 console.log(math_basicMath.sinDegrees(-9).result);
+console.log(math_basicMath.round(2123456789, -3).result);
