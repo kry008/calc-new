@@ -1,0 +1,25 @@
+{
+  "name": "calc-new",
+  "version": "0.0.1",
+  "description": "A small library with many math operations",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kry008/calc-new.git"
+  },
+  "keywords": [
+    "functions",
+    "calculator",
+    "calc",
+    "math"
+  ],
+  "author": "kry008",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kry008/calc-new/issues"
+  },
+  "homepage": "https://github.com/kry008/calc-new#readme"
+}
