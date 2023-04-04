@@ -4,13 +4,13 @@
 
 Example of usage can be found in the [`test.js`](https://github.com/kry008/calc-new/blob/main/test.js) file.
 
-You can import every class separately or import all wiht class `allMath`.
+You can import every class separately or import all wiht class `AllMath`.
 
 Available classes:
 ```js
-allMath() - contain all classes below
+AllMath() - contain all classes below
 
 BasicMath() - addition, subtraction, multiplication, division, modulo, power, absolute, squareRoot, logarithm, factorial, mathRoot, sinDegrees, cosDegrees, tanDegreese, sinRadians, cosRadians, tanRadians, round
 
-functionsMath() - not set yet
+FunctionsMath() - not set yet
 ```
